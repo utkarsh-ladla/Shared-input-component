@@ -1,4 +1,3 @@
-// FormComponent.js
 import React, { useState } from 'react';
 import SharedInput from './ShareInput';
 

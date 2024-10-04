@@ -1,4 +1,3 @@
-// SharedInput.js
 import React from 'react';
 import './ShareInput.css'; // Import the CSS file for this component
 
