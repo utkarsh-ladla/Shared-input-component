@@ -1,0 +1,81 @@
+/* SharedInput.css */
+
+.shared-input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .shared-label {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  .shared-input, .shared-textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .shared-input:focus, .shared-textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  .shared-textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .shared-checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shared-checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .shared-radio-label {
+    margin-right: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .shared-radio {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .shared-input:hover, .shared-textarea:hover {
+    border-color: #007BFF;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .shared-input-group {
+      width: 100%;
+    }
+  
+    .shared-label {
+      font-size: 14px;
+    }
+  
+    .shared-input, .shared-textarea {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .shared-radio-label {
+      font-size: 12px;
+    }
+  }
+  
